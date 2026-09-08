@@ -1,5 +1,24 @@
 # Atlas
 
+> [!IMPORTANT]
+> **Absorbed into [Nexis](https://github.com/rwetz/Nexis) and archived.**
+> Atlas is now a sidebar panel in Nexis rather than a separate desktop app.
+> Everything below still describes what it does; it just does it inside the
+> terminal instead of in its own window, which means it shares one theme, one
+> workspace, and one selection with the rest of the tools.
+>
+> Absorbing it deleted the parts that only existed because it was a separate
+> process: locating an installed Nexis to spawn it at a repo (now "Open as
+> workspace"), hunting through nine terminal emulators (now a tab), and the
+> whole `nexis-atlas://` deep-link layer — a URL scheme, two Tauri plugins and
+> a validated parser whose entire job was moving one path between two processes
+> on the same machine.
+>
+> This repository's development history is grafted into Nexis, so `git log
+> --follow` and `git blame` there reach these commits — and through them into
+> `nexis-imagine` and `nexis-dev-dashboard`, which were merged here first.
+> Frozen at the state below.
+
 Every git repo on your machine, scanned once and shown two ways.
 
 - **List** — branch, sync state, changed files, last commit and stashes for
