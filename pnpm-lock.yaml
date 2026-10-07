@@ -21,8 +21,8 @@ importers:
         specifier: ^1.0.5
         version: 1.1.10(react@19.2.8)
       '@nexis/design':
-        specifier: github:rwetz/nexis-design
-        version: https://codeload.github.com/rwetz/nexis-design/tar.gz/28333833a237735012aaf906114725c31bf2185e(@hugeicons/core-free-icons@1.2.1)(@hugeicons/react@1.1.10(react@19.2.8))(@tauri-apps/api@2.11.1)(@tauri-apps/plugin-os@2.3.2)(clsx@2.1.1)(motion@12.43.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwind-merge@3.6.0)
+        specifier: github:rwetz/nexis-design#b7e8ba2
+        version: https://codeload.github.com/rwetz/nexis-design/tar.gz/b7e8ba205bfc5edf6e820a7a581b7d50c3690a9d(@hugeicons/core-free-icons@1.2.1)(@hugeicons/react@1.1.10(react@19.2.8))(@tauri-apps/api@2.11.1)(@tauri-apps/plugin-os@2.3.2)(clsx@2.1.1)(motion@12.43.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwind-merge@3.6.0)
       '@tauri-apps/api':
         specifier: ^2.6.0
         version: 2.11.1
@@ -511,8 +511,8 @@ packages:
     os: [linux]
     libc: [glibc]
 
-  '@nexis/design@https://codeload.github.com/rwetz/nexis-design/tar.gz/28333833a237735012aaf906114725c31bf2185e':
-    resolution: {gitHosted: true, integrity: sha512-ICYfvI4LP+TQEIIg0PpAqUqL2kD/cTj5Umngr5dse3iEkse4ZDTdMKVOU87eGYe0gon9coN+4zkSVm0QWzT98w==, tarball: https://codeload.github.com/rwetz/nexis-design/tar.gz/28333833a237735012aaf906114725c31bf2185e}
+  '@nexis/design@https://codeload.github.com/rwetz/nexis-design/tar.gz/b7e8ba205bfc5edf6e820a7a581b7d50c3690a9d':
+    resolution: {gitHosted: true, integrity: sha512-Hv2yki5I4oBwc0mM+XhjRrYeVGL42mqc8QaoCELTD2dmIPMKcTUhGDeO1MtRs48Bsj5GAIGJVPIzJSiZAchOSQ==, tarball: https://codeload.github.com/rwetz/nexis-design/tar.gz/b7e8ba205bfc5edf6e820a7a581b7d50c3690a9d}
     version: 0.1.0
     hasBin: true
     peerDependencies:
@@ -3585,7 +3585,7 @@ snapshots:
   '@napi-rs/lzma-linux-x64-gnu@1.5.1':
     optional: true
 
-  '@nexis/design@https://codeload.github.com/rwetz/nexis-design/tar.gz/28333833a237735012aaf906114725c31bf2185e(@hugeicons/core-free-icons@1.2.1)(@hugeicons/react@1.1.10(react@19.2.8))(@tauri-apps/api@2.11.1)(@tauri-apps/plugin-os@2.3.2)(clsx@2.1.1)(motion@12.43.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwind-merge@3.6.0)':
+  '@nexis/design@https://codeload.github.com/rwetz/nexis-design/tar.gz/b7e8ba205bfc5edf6e820a7a581b7d50c3690a9d(@hugeicons/core-free-icons@1.2.1)(@hugeicons/react@1.1.10(react@19.2.8))(@tauri-apps/api@2.11.1)(@tauri-apps/plugin-os@2.3.2)(clsx@2.1.1)(motion@12.43.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwind-merge@3.6.0)':
     dependencies:
       '@hugeicons/core-free-icons': 1.2.1
       '@hugeicons/react': 1.1.10(react@19.2.8)
